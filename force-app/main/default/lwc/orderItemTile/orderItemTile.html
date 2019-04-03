@@ -9,11 +9,11 @@
             {orderItem.Product__r.Name}
         </p>
         <p class="slds-align_absolute-center">
-            MSRP:
+            メーカー希望小売価格:
             <lightning-formatted-number
                 value={orderItem.Product__r.MSRP__c}
                 format-style="currency"
-                currency-code="USD"
+                currency-code="JPY"
             ></lightning-formatted-number>
         </p>
         <div class="form slds-align_absolute-center">
@@ -21,7 +21,7 @@
                 onchange={handleFormChange}
                 value={orderItem.Price__c}
                 data-field-name="Price__c"
-                label="Price"
+                label="価格"
                 type="number"
                 formatter="currency"
                 class="price"
@@ -30,7 +30,7 @@
                 onchange={handleFormChange}
                 value={orderItem.Qty_S__c}
                 data-field-name="Qty_S__c"
-                label="Small"
+                label="小(S)"
                 type="number"
                 max-length="3"
                 class="quantity"
@@ -39,7 +39,7 @@
                 onchange={handleFormChange}
                 value={orderItem.Qty_M__c}
                 data-field-name="Qty_M__c"
-                label="Medium"
+                label="中(M)"
                 type="number"
                 max-length="3"
                 class="quantity"
@@ -48,7 +48,7 @@
                 onchange={handleFormChange}
                 value={orderItem.Qty_L__c}
                 data-field-name="Qty_L__c"
-                label="Large"
+                label="大(L)"
                 type="number"
                 max-length="3"
                 class="quantity"

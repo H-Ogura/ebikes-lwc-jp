@@ -3,7 +3,7 @@
     <fullName>Account__c</fullName>
     <deleteConstraint>Restrict</deleteConstraint>
     <externalId>false</externalId>
-    <label>Account</label>
+    <label>取引先</label>
     <referenceTo>Account</referenceTo>
     <relationshipName>Orders</relationshipName>
     <required>true</required>

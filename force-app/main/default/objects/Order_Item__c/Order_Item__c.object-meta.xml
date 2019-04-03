@@ -52,13 +52,13 @@
     <enableSearch>false</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
-    <label>Order Item</label>
+    <label>注文明細</label>
     <nameField>
         <displayFormat>OI-{000000}</displayFormat>
-        <label>Order Item Number</label>
+        <label>注文明細番号</label>
         <type>AutoNumber</type>
     </nameField>
-    <pluralLabel>Order Items</pluralLabel>
+    <pluralLabel>注文明細</pluralLabel>
     <searchLayouts/>
     <sharingModel>ControlledByParent</sharingModel>
     <visibility>Public</visibility>

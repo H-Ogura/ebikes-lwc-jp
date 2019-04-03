@@ -2,7 +2,7 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Material__c</fullName>
     <externalId>false</externalId>
-    <label>Material</label>
+    <label>素材</label>
     <required>false</required>
     <trackTrending>false</trackTrending>
     <type>Picklist</type>
@@ -11,14 +11,14 @@
         <valueSetDefinition>
             <sorted>false</sorted>
             <value>
-                <fullName>Aluminum</fullName>
+                <fullName>アルミニウム</fullName>
                 <default>false</default>
-                <label>Aluminum</label>
+                <label>アルミニウム</label>
             </value>
             <value>
-                <fullName>Carbon</fullName>
+                <fullName>カーボン</fullName>
                 <default>false</default>
-                <label>Carbon</label>
+                <label>カーボン</label>
             </value>
         </valueSetDefinition>
     </valueSet>

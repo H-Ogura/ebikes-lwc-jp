@@ -16,11 +16,11 @@ const DELAY = 350;
  */
 export default class ProductFilter extends LightningElement {
     searchKey = '';
-    maxPrice = 10000;
+    maxPrice = 1000000;
 
     filters = {
         searchKey: '',
-        maxPrice: 10000
+        maxPrice: 1000000
     };
 
     @wire(CurrentPageReference) pageRef;

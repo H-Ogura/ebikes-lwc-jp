@@ -52,12 +52,12 @@
     <enableSearch>false</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
-    <label>Product Family</label>
+    <label>製品ファミリー</label>
     <nameField>
-        <label>Product Family Name</label>
+        <label>製品ファミリー名</label>
         <type>Text</type>
     </nameField>
-    <pluralLabel>Product Families</pluralLabel>
+    <pluralLabel>製品ファミリー</pluralLabel>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>

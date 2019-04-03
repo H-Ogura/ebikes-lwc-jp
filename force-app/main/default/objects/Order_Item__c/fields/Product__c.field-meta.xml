@@ -3,9 +3,9 @@
     <fullName>Product__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <externalId>false</externalId>
-    <label>Product</label>
+    <label>製品</label>
     <referenceTo>Product__c</referenceTo>
-    <relationshipLabel>Order Items</relationshipLabel>
+    <relationshipLabel>注文明細</relationshipLabel>
     <relationshipName>Order_Items</relationshipName>
     <required>false</required>
     <trackTrending>false</trackTrending>

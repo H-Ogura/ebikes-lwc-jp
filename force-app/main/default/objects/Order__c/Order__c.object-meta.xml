@@ -55,13 +55,13 @@
     <enableSearch>false</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
-    <label>Reseller Order</label>
+    <label>代理店注文</label>
     <nameField>
         <displayFormat>O-{00000}</displayFormat>
-        <label>Order Number</label>
+        <label>注文番号</label>
         <type>AutoNumber</type>
     </nameField>
-    <pluralLabel>Reseller Orders</pluralLabel>
+    <pluralLabel>代理店注文</pluralLabel>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>

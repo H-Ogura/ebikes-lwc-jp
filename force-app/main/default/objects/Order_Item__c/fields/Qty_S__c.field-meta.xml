@@ -3,7 +3,7 @@
     <fullName>Qty_S__c</fullName>
     <defaultValue>1</defaultValue>
     <externalId>false</externalId>
-    <label>S</label>
+    <label>小(S)</label>
     <precision>3</precision>
     <required>false</required>
     <scale>0</scale>

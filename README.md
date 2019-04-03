@@ -1,136 +1,141 @@
-# E-Bikes Lightning Web Components Sample Application
+# E-Bikes Lightning Web Components サンプルアプリケーション
+<!--
+[![CircleCI](https://circleci.com/gh/trailheadapps-jp/ebikes-lwc-jp.svg?style=svg)](https://circleci.com/gh/trailheadapps-jp/ebikes-lwc-jp)
+-->
 
-[![CircleCI](https://circleci.com/gh/trailheadapps/ebikes-lwc.svg?style=svg)](https://circleci.com/gh/trailheadapps/ebikes-lwc)
+## This is Localized Repository. Original is here.
+https://github.com/trailheadapps/ebikes-lwc
 
 ![ebikes-logo](ebikes-logo.png)
 
-E-Bikes is a sample application that demonstrates how to build applications with Lightning Web Components. E-Bikes is a fictitious electric bicycle manufacturer. The application helps E-Bikes manage their products and reseller orders using a rich user experience.
+E-BikesはLightning Web Componentsを使ってどの様にアプリケーションを開発するかを表したサンプルのアプリケーションです。E-Bikesか架空の自転車メーカーで、このアプリケーションはリッチーなユーザ体験を提供し、自社の製品及びリセラーの注文を管理するのに役立ちます。
 
-## Table of contents
+## 目次
 
--   Installation Instructions
+-   インストール手順
 
-    -   [Installing E-Bikes using a scratch org](#installing-e-bikes-using-a-scratch-org)
-    -   [Installing E-Bikes using an unlocked package](#installing-e-bikes-using-an-unlocked-package)
+    -   [スクラッチ組織を使ってE-Bikesをインストール](#スクラッチ組織を使ったE-Bikesのインストール)
+    -   [ロック解除済みパッケージを使ってE-Bikesをインストール](#ロック解除済みパッケージを使ったE-Bikesのインストール)
+<!--
+-   [追加のインストール手順](#追加のインストール手順)
+-->
+-   [アプリケーションの説明](#アプリケーションの説明)
 
--   [Optional installation instructions](#optional-installation-instructions)
+## インストール手順
 
--   [Application Walkthrough](#application-walkthrough)
+E-Bikesのインストールには2種類の方法があります:
 
-## Installation Instructions
+-   [スクラッチ組織の利用](#スクラッチ組織を使ったE-Bikesのインストール): おすすめのインストールオプションです。アプリ及びコードを体験したい開発者はこのオプションを使用して下さい。
+-   [ロック解除済みパッケージの利用](#ロック解除済みパッケージを使ったE-Bikesのインストール): このオプションはサンプルアプリケーションをローカルの開発環境を使わずに、誰でも体験することができます。
 
-There are two ways to install E-Bikes:
+## スクラッチ組織を使ったE-Bikesのインストール
 
--   [Using a Scratch Org](#installing-e-bikes-using-a-scratch-org): This is the recommended installation option. Use this option if you are a developer who wants to experience the app and the code.
--   [Using an Unlocked Package](#installing-e-bikes-using-an-unlocked-package): This option allows anybody to experience the sample app without installing a local development environment.
+1. [クイックスタート: Lightning Web Components](https://trailhead.salesforce.com/ja/content/learn/projects/quick-start-lightning-web-components) Trailheadプロジェクトに従って、環境をセットアップします。このステップには以下が含まれます:
 
-## Installing E-Bikes using a Scratch Org
+-   Trailhead PlaygroundでのDev Hubの有効化 
+-   Salesforce CLIのインストール
+-   Visual Studio Codeのインストール
+-   Visual Studio Code Salesforce extensionsのインストール(Lightning Web Components extension を含む)
 
-1. Set up your environment. Follow the steps in the [Quick Start: Lightning Web Components](https://trailhead.salesforce.com/content/learn/projects/quick-start-lightning-web-components/) Trailhead project. The steps include:
-
--   Enable Dev Hub in your Trailhead Playground
--   Install Salesforce CLI
--   Install Visual Studio Code
--   Install the Visual Studio Code Salesforce extensions, including the Lightning Web Components extension
-
-2. If you haven't already done so, authenticate with your hub org and provide it with an alias (**myhuborg** in the command below):
+2. まだ実施していない場合には, Hub組織への認証とエイリアスを設定します(以下のコマンドでは **myhuborg**):
 
 ```
 sfdx force:auth:web:login -d -a myhuborg
 ```
 
-3. Clone the repository:
+3. リポジトリをクローンします:
 
 ```
-git clone https://github.com/trailheadapps/ebikes-lwc
-cd ebikes-lwc
+git clone https://github.com/trailheadapps-jp/ebikes-lwc-jp
+cd ebikes-lwc-jp
 ```
 
-4. Create a scratch org and provide it with an alias (**ebikes** in the command below):
+4. スクラッチ組織を作成し、エイリアスを設定します(以下のコマンドでは**ebikes**):
 
 ```
 sfdx force:org:create -s -f config/project-scratch-def.json -a ebikes
 ```
 
-5. Push the app to your scratch org:
+5. スクラッチ組織にアプリケーションをプッシュします:
 
 ```
 sfdx force:source:push
 ```
 
-6. Assign the **ebikes** permission set to the default user:
+6. **ebikes** 権限セットをデフォルトユーザにアサインします:
 
 ```
 sfdx force:user:permset:assign -n ebikes
 ```
 
-7. Load sample data:
+7. サンプルデータをロードします:
 
 ```
 sfdx force:data:tree:import --plan ./data/sample-data-plan.json
 ```
 
-8. Open the scratch org:
+8. スクラッチ組織を開きます:
 
 ```
 sfdx force:org:open
 ```
 
-9. In **Setup**, under **Themes and Branding**, activate the **Lightning Lite** theme.
+9. **設定**から、**テーマおよびブランド設定**に行き、**Lightning Lite**テーマを有効化します。
 
-10. In App Launcher, select the **E-Bikes** app.
+10. アプリケーションランチャーから**E-Bikes**アプリケーションを選択します。
 
-## Installing E-Bikes using an Unlocked Package
+## ロック解除済みパッケージを使ったE-Bikesのインストール
 
-1. [Sign up](https://developer.salesforce.com/signup) for a Developer Edition (DE) org.
+1. [サインアップ](https://developer.salesforce.com/signup) からDeveloper Edition (DE) 組織を取得します。
 
-2. Enable MyDomain in your DE org. Instructions to do this are [here](https://trailhead.salesforce.com/modules/identity_login/units/identity_login_my_domain).
+2. 私のドメインをDE組織で有効化します。手順については[こちら](https://trailhead.salesforce.com/ja/content/learn/modules/identity_login/identity_login_my_domain)を参考にして下さい。
 
-3. Click [this link](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tB0000000KAfOIAW) to install the E-Bikes unlocked package in your DE org.
+3. [このリンク](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tB0000000KAfOIAW)をクリックしてE-Bikesのロック解除済みパッケージをDE組織にインストールします。
 
-4. Select **Install for All Users**
+4. **すべてのユーザにインストール**を選択します。
 
-5. In **Setup**, under **Themes and Branding**, activate the **Lightning Lite** theme.
+5. **設定**から、**テーマおよびブランド設定**に行き、**Lightning Lite**テーマを有効化します。
 
-6. Import Account data:
+6. 取引先のデータをインポートします:
 
--   Click [here](https://raw.githubusercontent.com/trailheadapps/ebikes-lwc/master/data/accounts.csv) to acccess the **accounts.csv** file. Right click in the browser window and save the file as **accounts.csv**.
--   In **Setup**, type **Data Import** in the Quick Find box and click **Data Import Wizard**.
--   Click **Launch Wizard**.
--   Click the **Standard objects** tab, click **Accounts and Contacts**, and click **Add new records**.
--   Drag the **accounts.csv** file you just saved and drop it in the upload area.
--   Click **Next**, **Next**, and **Start Import**.
+-   [こちら](https://raw.githubusercontent.com/trailheadapps-jp/ebikes-lwc-jp/master/data/accounts.csv)をクリックして**accounts.csv** ファイルへアクセスします。ブラウザ上で右クリックし、ファイルを**accounts.csv**として保存します。
+-   **設定**から**データインポート**とクイック検索ボックスに入力し、**データインポートウィザード**を選択します。
+-   **ウィザードを起動する**をクリックします。
+-   **標準オブジェクト**タブをクリックし**取引先と取引先責任者**をクリックし、**新規レコードを追加**をクリックします。
+-   保存した**accounts.csv**ファイルをアップロードエリアにドロップします。
+-   **次へ**、**次へ**とクリックし、**インポート開始**をクリックします。
 
-7. Import Product Family data:
+7. 製品ファミリーデータのインポート:
 
--   Click [here](https://raw.githubusercontent.com/trailheadapps/ebikes-lwc/master/data/product_families.csv) to acccess the **product_families.csv** file. Right click in the browser window and save the file as **product_families.csv**.
--   In **Setup**, type **Data Import** in the Quick Find box and click **Data Import Wizard**.
--   Click **Launch Wizard**.
--   Click the **Custom objects** tab, click **Product Families**, and click **Add new records**.
--   Drag the **product_families.csv** file you just saved and drop it in the upload area.
--   Click **Next**, **Next**, and **Start Import**.
+-   [こちら](https://raw.githubusercontent.com/trailheadapps-jp/ebikes-lwc-jp/master/data/product_families.csv)をクリックして**product_families.csv** ファイルへアクセスします。ブラウザ上で右クリックし、ファイルを**product_families.csv**として保存します。
+-   **設定**から**データインポート**とクイック検索ボックスに入力し、**データインポートウィザード**を選択します。
+-   **ウィザードを起動する**をクリックします。
+-   **カスタムオブジェクト**タブをクリックし**製品ファミリー**をクリックし、**新規レコードを追加**をクリックします。
+-   保存した**product_families.csv**ファイルをアップロードエリアにドロップします。
+-   **次へ**、**次へ**とクリックし、**インポート開始**をクリックします。
 
-8. Import Product data:
+8. 製品データのインポート:
 
--   Click [here](https://raw.githubusercontent.com/trailheadapps/ebikes-lwc/master/data/products.csv) to acccess the **products.csv** file. Right click in the browser window and save the file as **products.csv**.
--   In **Setup**, type **Data Import** in the Quick Find box and click **Data Import Wizard**.
--   Click **Launch Wizard**.
--   Click the **Custom objects** tab, click **Products**, and click **Add new records**.
--   In the **Add new records** menu, under _Which Product Family field in your file do you want to match against to set the Product Family lookup field?_ select **Product Family Name** in the dropdown menu.
--   Drag the **products.csv** file you just saved and drop it in the upload area.
--   Click **Next**, **Next**, and **Start Import**.
+-   [こちら](https://raw.githubusercontent.com/trailheadapps-jp/ebikes-lwc-jp/master/data/products.csv)をクリックして**products.csv** ファイルへアクセスします。ブラウザ上で右クリックし、ファイルを**products.csv**として保存します。
+-   **設定**から**データインポート**とクイック検索ボックスに入力し、**データインポートウィザード**を選択します。
+-   **ウィザードを起動する**をクリックします。
+-   **カスタムオブジェクト**タブをクリックし**製品**をクリックし、**新規レコードを追加**をクリックします。
+-   **新規レコードを追加** メニューの中の _製品ファミリー参照項目を設定するためにファイルのどの製品ファミリー項目を照合しますか?_ ドロップダウンメニューから**製品ファミリー 名前**を選択します。
+-   保存した**products.csv**ファイルをアップロードエリアにドロップします。
+-   **次へ**、**次へ**とクリックし、**インポート開始**をクリックします。
 
-9. In App Launcher, select the **E-Bikes** app.
+9. アプリケーションランチャーから**E-Bikes**アプリケーションを選択します。
 
-## Optional Installation Instructions
+<!--
+## 追加のインストール手順
 
-This repository contains several files that are relevant if you want to integrate modern web development tooling to your Salesforce development processes, or to your continuous integration/continuous deployment processes.
+このリポジトリトリには、モダンなWeb開発ツールをSalesforce開発のプロセスに統合したり、継続的インテグレーション及び継続的デプロイメントプロセスを実施するのに役立ついくつかのファイルが含まれています。
 
-### Code formatting
+### コードフォーマット
 
 [Prettier](https://prettier.io/) is a code formatter used to ensure consistent formatting across your code base. To use Prettier with Visual Studio Code, install [this extension](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) from the Visual Studio Code Marketplace. The [.prettierignore](/.prettierignore) and [.prettierrc](/.prettierrc) files are provided as part of this repository to control the behavior of the Prettier formatter.
 
-### Code linting
+### コードのlint
 
 [ESLint](https://eslint.org/) is a popular JavaScript linting tool used to identify stylistic errors and erroneous constructs. To use ESLint with Visual Studio Code, install [this extension](https://marketplace.visualstudio.com/items?itemName=salesforce.salesforcedx-vscode-lwc) from the Visual Studio Code Marketplace. The [.eslintignore](/.eslintignore) file is provided as part of this repository to exclude specific files from the linting process in the context of Lighning Web Components development.
 
@@ -149,39 +154,40 @@ Prettier and ESLint will now run automatically every time you commit changes. Th
 npm run lint:lwc
 npm run prettier
 ```
+-->
 
-## Application Walkthrough
+## アプリケーションの説明
 
-### Product Explorer
+### 製品エクスプローラー
 
-1. Click the **Product Explorer** tab.
+1. **製品エクスプローラー** タブをクリックします。
 
-2. Filter the list using the filter component in the left sidebar.
+2. 左側にあるフィルターでコンポーネントでリストをフィルタリングします。
 
-3. Click a product in the tile list to see the details in the product card.
+3. タイル上のリストの製品をクリックして製品カードの詳細を確認します。
 
-4. Click the expand icon in the product card to navigate to the product record page.
+4. 製品カードの拡張アイコンをクリックして、製品レコードページへ遷移します。
 
-### Product Record Page
+### 製品レコードページ
 
-1. The product record page features a **Similar Products** component.
+1. 製品レコードページでは**類似製品**コンポーネントの機能があります。
 
-2. Click the **View Details** button to navigate to a similar product record page.
+2. **詳細を見る**ボタンをクリクして、類似製品のレコードページへ遷移します。
 
-### Reseller Orders
+### 代理店注文
 
-1. Click the down arrow on the **Reseller Order** tab and click **New Reseller Order**.
+1. **代理店注文**タブの矢印メニューをクリックし**新規代理店注文**をクリックします。
 
-2. Select an account, for example **Wheelworks** and click **Save**.
+2. **ホイールワーク**などの取引先を選択し**保存**を押します。
 
-3. Drag a product from the product list on the right onto the gray panel in the center. The product is automatically added to the order as an order item.
+3. 右側の製品リストから中央のグレーのパネルへ製品をドラッグします。製品が注文明細として自動的に注文に追加されます。
 
-4. Modify the ordered quantity for small (S), medium (M), and large (L) frames and click the save button (checkmark icon).
+4. 小(S), 中(M), 大(L)などの注文の数量などを変更し、保存ボタンをクリックします(チェックアイコン).
 
-5. Repeat steps 3 and 4 to add more products to the order.
+5. 3 及び 4 のステップを繰り返し、製品を注文に追加します。
 
-6. Mouse over an order item tile and click the trash can icon to delete an order item from the order.
+6. 注文アイテムのタイルの上にマウスを置き、ごみ箱アイコンをクリックして、注文から注文明細を削除します。
 
-### Account Record Page
+### 取引先レコードページ
 
-The account record page features an **Account Map** component that locates the account on a map.
+取引先レコードページでは**取引先地図**コンポーネントが取引先の所在地を地図上に表示する機能があります。

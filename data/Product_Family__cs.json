@@ -5,36 +5,36 @@
                 "type": "Product_Family__c",
                 "referenceId": "DynamoRef"
             },
-            "Name": "Dynamo",
-            "Description__c": "Performance and reliability. The best choice for hobbyists and enthusiasts.",
-            "Category__c": "Mountain"
+            "Name": "ダイナモ(Dynamo)",
+            "Description__c": "性能と信頼性、愛好家のための最高の一台。",
+            "Category__c": "マウンテン"
         },
         {
             "attributes": {
                 "type": "Product_Family__c",
                 "referenceId": "FuseRef"
             },
-            "Name": "Fuse",
-            "Description__c": "Commute and off-road? The Fuse bikes do it all!",
-            "Category__c": "Hybrid"
+            "Name": "ヒューズ(Fuse)",
+            "Description__c": "通勤とオフロード？ ヒューズなら一台で大丈夫。",
+            "Category__c": "ハイブリッド"
         },
         {
             "attributes": {
                 "type": "Product_Family__c",
                 "referenceId": "ElectraRef"
             },
-            "Name": "Electra",
-            "Description__c": "Top of the line commuter bikes that can handle long and challenging commutes.",
-            "Category__c": "Commuter"
+            "Name": "エレクトラ(Electra)",
+            "Description__c": "長時間の通勤にも対応できる、通勤用自転車のトップクラス。",
+            "Category__c": "コミューター"
         },
         {
             "attributes": {
                 "type": "Product_Family__c",
                 "referenceId": "VoltRef"
             },
-            "Name": "Volt",
-            "Description__c": "Fun and Foldable electric bicycles.",
-            "Category__c": "Commuter"
+            "Name": "ボルト(Volt)",
+            "Description__c": "簡単に折りたたみ可能な電動自転車。",
+            "Category__c": "コミューター"
         }
     ]
 }

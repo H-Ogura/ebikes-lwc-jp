@@ -5,13 +5,13 @@
                 "type": "Product__c",
                 "referenceId": "Product__cRef1"
             },
-            "Name": "FUSE X1",
+            "Name": "ヒューズ(FUSE) X1",
             "Product_Family__c": "@FuseRef",
-            "Description__c": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-            "MSRP__c": 2500,
-            "Level__c": "Beginner",
-            "Category__c": "Commuter",
-            "Material__c": "Aluminum",
+            "Description__c": "E-bikesのエレクトリックサイクルは、あなたのライフスタイルと健康の両面をサポートします",
+            "MSRP__c": 250000,
+            "Level__c": "初心者",
+            "Category__c": "コミューター",
+            "Material__c": "アルミニウム",
             "Picture_URL__c": "https://s3-us-west-1.amazonaws.com/sfdc-demo/ebikes/fusex1.jpg"
         },
         {
@@ -19,13 +19,13 @@
                 "type": "Product__c",
                 "referenceId": "Product__cRef2"
             },
-            "Name": "FUSE X2",
+            "Name": "ヒューズ(FUSE) X2",
             "Product_Family__c": "@FuseRef",
-            "Description__c": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-            "MSRP__c": 2600,
-            "Level__c": "Beginner",
-            "Category__c": "Commuter",
-            "Material__c": "Aluminum",
+            "Description__c": "E-bikesのエレクトリックサイクルは、あなたのライフスタイルと健康の両面をサポートします",
+            "MSRP__c": 260000,
+            "Level__c": "初心者",
+            "Category__c": "コミューター",
+            "Material__c": "アルミニウム",
             "Picture_URL__c": "https://s3-us-west-1.amazonaws.com/sfdc-demo/ebikes/fusex2.jpg"
         },
         {
@@ -33,13 +33,13 @@
                 "type": "Product__c",
                 "referenceId": "Product__cRef3"
             },
-            "Name": "FUSE X3",
+            "Name": "ヒューズ(FUSE) X3",
             "Product_Family__c": "@FuseRef",
-            "Description__c": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-            "MSRP__c": 2700,
-            "Level__c": "Beginner",
-            "Category__c": "Commuter",
-            "Material__c": "Aluminum",
+            "Description__c": "E-bikesのエレクトリックサイクルは、あなたのライフスタイルと健康の両面をサポートします",
+            "MSRP__c": 270000,
+            "Level__c": "初心者",
+            "Category__c": "コミューター",
+            "Material__c": "アルミニウム",
             "Picture_URL__c": "https://s3-us-west-1.amazonaws.com/sfdc-demo/ebikes/fusex3.jpg"
         },
         {
@@ -47,13 +47,13 @@
                 "type": "Product__c",
                 "referenceId": "Product__cRef4"
             },
-            "Name": "FUSE X4",
+            "Name": "ヒューズ(FUSE) X4",
             "Product_Family__c": "@FuseRef",
-            "Description__c": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-            "MSRP__c": 2800,
-            "Level__c": "Beginner",
-            "Category__c": "Commuter",
-            "Material__c": "Aluminum",
+            "Description__c": "E-bikesのエレクトリックサイクルは、あなたのライフスタイルと健康の両面をサポートします",
+            "MSRP__c": 280000,
+            "Level__c": "初心者",
+            "Category__c": "コミューター",
+            "Material__c": "アルミニウム",
             "Picture_URL__c": "https://s3-us-west-1.amazonaws.com/sfdc-demo/ebikes/fusex4.jpg"
         },
         {
@@ -61,13 +61,13 @@
                 "type": "Product__c",
                 "referenceId": "Product__cRef5"
             },
-            "Name": "DYNAMO X1",
+            "Name": "ダイナモ(DYNAMO) X1",
             "Product_Family__c": "@DynamoRef",
-            "Description__c": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-            "MSRP__c": 7000,
-            "Level__c": "Racer",
-            "Category__c": "Mountain",
-            "Material__c": "Carbon",
+            "Description__c": "E-bikesのエレクトリックサイクルは、あなたのライフスタイルと健康の両面をサポートします",
+            "MSRP__c": 700000,
+            "Level__c": "レーサー",
+            "Category__c": "マウンテン",
+            "Material__c": "カーボン",
             "Picture_URL__c": "https://s3-us-west-1.amazonaws.com/sfdc-demo/ebikes/dynamox1.jpg"
         },
         {
@@ -75,13 +75,13 @@
                 "type": "Product__c",
                 "referenceId": "Product__cRef6"
             },
-            "Name": "DYNAMO X2",
+            "Name": "ダイナモ(DYNAMO) X2",
             "Product_Family__c": "@DynamoRef",
-            "Description__c": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-            "MSRP__c": 7200,
-            "Level__c": "Racer",
-            "Category__c": "Mountain",
-            "Material__c": "Carbon",
+            "Description__c": "E-bikesのエレクトリックサイクルは、あなたのライフスタイルと健康の両面をサポートします",
+            "MSRP__c": 720000,
+            "Level__c": "レーサー",
+            "Category__c": "マウンテン",
+            "Material__c": "カーボン",
             "Picture_URL__c": "https://s3-us-west-1.amazonaws.com/sfdc-demo/ebikes/dynamox2.jpg"
         },
         {
@@ -89,13 +89,13 @@
                 "type": "Product__c",
                 "referenceId": "Product__cRef7"
             },
-            "Name": "DYNAMO X3",
+            "Name": "ダイナモ(DYNAMO) X3",
             "Product_Family__c": "@DynamoRef",
-            "Description__c": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-            "MSRP__c": 7400,
-            "Level__c": "Racer",
-            "Category__c": "Mountain",
-            "Material__c": "Carbon",
+            "Description__c": "E-bikesのエレクトリックサイクルは、あなたのライフスタイルと健康の両面をサポートします",
+            "MSRP__c": 740000,
+            "Level__c": "レーサー",
+            "Category__c": "マウンテン",
+            "Material__c": "カーボン",
             "Picture_URL__c": "https://s3-us-west-1.amazonaws.com/sfdc-demo/ebikes/dynamox3.jpg"
         },
         {
@@ -103,13 +103,13 @@
                 "type": "Product__c",
                 "referenceId": "Product__cRef8"
             },
-            "Name": "DYNAMO X4",
+            "Name": "ダイナモ(DYNAMO) X4",
             "Product_Family__c": "@DynamoRef",
-            "Description__c": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-            "MSRP__c": 7800,
-            "Level__c": "Racer",
-            "Category__c": "Mountain",
-            "Material__c": "Carbon",
+            "Description__c": "E-bikesのエレクトリックサイクルは、あなたのライフスタイルと健康の両面をサポートします",
+            "MSRP__c": 780000,
+            "Level__c": "レーサー",
+            "Category__c": "マウンテン",
+            "Material__c": "カーボン",
             "Picture_URL__c": "https://s3-us-west-1.amazonaws.com/sfdc-demo/ebikes/dynamox4.jpg"
         },
         {
@@ -117,13 +117,13 @@
                 "type": "Product__c",
                 "referenceId": "Product__cRef9"
             },
-            "Name": "ELECTRA X1",
+            "Name": "エレクトラ(ELECTRA) X1",
             "Product_Family__c": "@ElectraRef",
-            "Description__c": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-            "MSRP__c": 4000,
-            "Level__c": "Enthusiast",
-            "Category__c": "Mountain",
-            "Material__c": "Aluminum",
+            "Description__c": "E-bikesのエレクトリックサイクルは、あなたのライフスタイルと健康の両面をサポートします",
+            "MSRP__c": 400000,
+            "Level__c": "愛好家",
+            "Category__c": "マウンテン",
+            "Material__c": "アルミニウム",
             "Picture_URL__c": "https://s3-us-west-1.amazonaws.com/sfdc-demo/ebikes/electrax1.jpg"
         },
         {
@@ -131,13 +131,13 @@
                 "type": "Product__c",
                 "referenceId": "Product__cRef10"
             },
-            "Name": "ELECTRA X2",
+            "Name": "エレクトラ(ELECTRA) X2",
             "Product_Family__c": "@ElectraRef",
-            "Description__c": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-            "MSRP__c": 4300,
-            "Level__c": "Enthusiast",
-            "Category__c": "Mountain",
-            "Material__c": "Aluminum",
+            "Description__c": "E-bikesのエレクトリックサイクルは、あなたのライフスタイルと健康の両面をサポートします",
+            "MSRP__c": 430000,
+            "Level__c": "愛好家",
+            "Category__c": "マウンテン",
+            "Material__c": "アルミニウム",
             "Picture_URL__c": "https://s3-us-west-1.amazonaws.com/sfdc-demo/ebikes/electrax2.jpg"
         },
         {
@@ -145,13 +145,13 @@
                 "type": "Product__c",
                 "referenceId": "Product__cRef11"
             },
-            "Name": "ELECTRA X3",
+            "Name": "エレクトラ(ELECTRA) X3",
             "Product_Family__c": "@ElectraRef",
-            "Description__c": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-            "MSRP__c": 4600,
-            "Level__c": "Enthusiast",
-            "Category__c": "Mountain",
-            "Material__c": "Aluminum",
+            "Description__c": "E-bikesのエレクトリックサイクルは、あなたのライフスタイルと健康の両面をサポートします",
+            "MSRP__c": 460000,
+            "Level__c": "愛好家",
+            "Category__c": "マウンテン",
+            "Material__c": "アルミニウム",
             "Picture_URL__c": "https://s3-us-west-1.amazonaws.com/sfdc-demo/ebikes/electrax3.jpg"
         },
         {
@@ -159,13 +159,13 @@
                 "type": "Product__c",
                 "referenceId": "Product__cRef12"
             },
-            "Name": "ELECTRA X4",
+            "Name": "エレクトラ(ELECTRA) X4",
             "Product_Family__c": "@ElectraRef",
-            "Description__c": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-            "MSRP__c": 4900,
-            "Level__c": "Enthusiast",
-            "Category__c": "Mountain",
-            "Material__c": "Aluminum",
+            "Description__c": "E-bikesのエレクトリックサイクルは、あなたのライフスタイルと健康の両面をサポートします",
+            "MSRP__c": 490000,
+            "Level__c": "愛好家",
+            "Category__c": "マウンテン",
+            "Material__c": "アルミニウム",
             "Picture_URL__c": "https://s3-us-west-1.amazonaws.com/sfdc-demo/ebikes/electrax4.jpg"
         },
         {
@@ -173,13 +173,13 @@
                 "type": "Product__c",
                 "referenceId": "Product__cRef13"
             },
-            "Name": "VOLT X1",
+            "Name": "ボルト(VOLT) X1",
             "Product_Family__c": "@VoltRef",
-            "Description__c": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-            "MSRP__c": 1200,
-            "Level__c": "Beginner",
-            "Category__c": "Commuter",
-            "Material__c": "Aluminum",
+            "Description__c": "E-bikesのエレクトリックサイクルは、あなたのライフスタイルと健康の両面をサポートします",
+            "MSRP__c": 120000,
+            "Level__c": "初心者",
+            "Category__c": "コミューター",
+            "Material__c": "アルミニウム",
             "Picture_URL__c": "https://s3-us-west-1.amazonaws.com/sfdc-demo/ebikes/voltx1.jpg"
         },
         {
@@ -187,13 +187,13 @@
                 "type": "Product__c",
                 "referenceId": "Product__cRef14"
             },
-            "Name": "VOLT X2",
+            "Name": "ボルト(VOLT) X2",
             "Product_Family__c": "@VoltRef",
-            "Description__c": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-            "MSRP__c": 1400,
-            "Level__c": "Beginner",
-            "Category__c": "Commuter",
-            "Material__c": "Aluminum",
+            "Description__c": "E-bikesのエレクトリックサイクルは、あなたのライフスタイルと健康の両面をサポートします",
+            "MSRP__c": 140000,
+            "Level__c": "初心者",
+            "Category__c": "コミューター",
+            "Material__c": "アルミニウム",
             "Picture_URL__c": "https://s3-us-west-1.amazonaws.com/sfdc-demo/ebikes/voltx2.jpg"
         },
         {
@@ -201,13 +201,13 @@
                 "type": "Product__c",
                 "referenceId": "Product__cRef15"
             },
-            "Name": "VOLT X3",
+            "Name": "ボルト(VOLT) X3",
             "Product_Family__c": "@VoltRef",
-            "Description__c": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-            "MSRP__c": 1800,
-            "Level__c": "Beginner",
-            "Category__c": "Commuter",
-            "Material__c": "Aluminum",
+            "Description__c": "E-bikesのエレクトリックサイクルは、あなたのライフスタイルと健康の両面をサポートします",
+            "MSRP__c": 180000,
+            "Level__c": "初心者",
+            "Category__c": "コミューター",
+            "Material__c": "アルミニウム",
             "Picture_URL__c": "https://s3-us-west-1.amazonaws.com/sfdc-demo/ebikes/voltx3.jpg"
         },
         {
@@ -215,13 +215,13 @@
                 "type": "Product__c",
                 "referenceId": "Product__cRef16"
             },
-            "Name": "VOLT X4",
+            "Name": "ボルト(VOLT) X4",
             "Product_Family__c": "@VoltRef",
-            "Description__c": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-            "MSRP__c": 1900,
-            "Level__c": "Beginner",
-            "Category__c": "Commuter",
-            "Material__c": "Aluminum",
+            "Description__c": "E-bikesのエレクトリックサイクルは、あなたのライフスタイルと健康の両面をサポートします",
+            "MSRP__c": 190000,
+            "Level__c": "初心者",
+            "Category__c": "コミューター",
+            "Material__c": "アルミニウム",
             "Picture_URL__c": "https://s3-us-west-1.amazonaws.com/sfdc-demo/ebikes/voltx4.jpg"
         }
     ]

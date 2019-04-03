@@ -1,23 +1,23 @@
 <template>
-    <lightning-card title="Filters" icon-name="standard:calibration">
+    <lightning-card title="フィルター" icon-name="standard:calibration">
         <div class="slds-m-horizontal_medium">
             <lightning-input
-                label="Search Key"
+                label="検索キーワード"
                 type="search"
                 onchange={handleSearchKeyChange}
             ></lightning-input>
             <section>
                 <lightning-slider
-                    label="Max Price"
-                    step="100"
+                    label="最大価格"
+                    step="10000"
                     min="0"
-                    max="10000"
+                    max="1000000"
                     value={maxPrice}
                     onchange={handleMaxPriceChange}
                 ></lightning-slider>
             </section>
             <section>
-                <h1>Category</h1>
+                <h1>カテゴリー</h1>
                 <template if:true={categories.data}>
                     <template
                         for:each={categories.data.values}
@@ -36,13 +36,13 @@
                 </template>
                 <template if:true={categories.error}>
                     <c-inline-message
-                        message="Error loading categories"
+                        message="カテゴリーの読み込みでエラーが発生しました"
                         errors={categories.error}
                     ></c-inline-message>
                 </template>
             </section>
             <section>
-                <h1>Material</h1>
+                <h1>素材</h1>
                 <template if:true={materials.data}>
                     <template
                         for:each={materials.data.values}
@@ -61,13 +61,13 @@
                 </template>
                 <template if:true={materials.error}>
                     <c-inline-message
-                        message="Error loading materials"
+                        message="素材の読み込みでエラーが発生しました"
                         errors={materials.error}
                     ></c-inline-message>
                 </template>
             </section>
             <section>
-                <h1>Level</h1>
+                <h1>レベル</h1>
                 <template if:true={levels.data}>
                     <template for:each={levels.data.values} for:item="level">
                         <lightning-input
@@ -83,7 +83,7 @@
                 </template>
                 <template if:true={levels.error}>
                     <c-inline-message
-                        message="Error loading levels"
+                        message="レベルの読み込みでエラーが発生しました"
                         errors={levels.error}
                     ></c-inline-message>
                 </template>

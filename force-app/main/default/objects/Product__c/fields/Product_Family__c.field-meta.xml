@@ -3,9 +3,9 @@
     <fullName>Product_Family__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <externalId>false</externalId>
-    <label>Product Family</label>
+    <label>製品ファミリー</label>
     <referenceTo>Product_Family__c</referenceTo>
-    <relationshipLabel>Products</relationshipLabel>
+    <relationshipLabel>製品</relationshipLabel>
     <relationshipName>Products</relationshipName>
     <required>false</required>
     <trackTrending>false</trackTrending>

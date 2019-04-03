@@ -5,36 +5,36 @@
                 "type": "Account",
                 "referenceId": "AccountRef1"
             },
-            "Name": "Wheelworks",
-            "BillingStreet": "480 Trapelo Road",
-            "BillingCity": "Belmont",
-            "BillingState": "MA",
-            "BillingPostalCode": "02478",
-            "BillingCountry": "USA"
+            "Name": "ホイールワーク",
+            "BillingStreet": "丸の内2-7-2 JP Tower 13F",
+            "BillingCity": "千代田区",
+            "BillingState": "東京都",
+            "BillingPostalCode": "100-7012",
+            "BillingCountry": "日本"
         },
         {
             "attributes": {
                 "type": "Account",
                 "referenceId": "AccountRef2"
             },
-            "Name": "Northern Trail Cycling",
-            "BillingStreet": "415 Mission St",
-            "BillingCity": "San Francisco",
-            "BillingState": "CA",
-            "BillingPostalCode": "94105",
-            "BillingCountry": "USA"
+            "Name": "ノーザントレイルサイクリング",
+            "BillingStreet": "丸の内2-7-2 JP Tower 12F",
+            "BillingCity": "千代田区",
+            "BillingState": "東京都",
+            "BillingPostalCode": "100-7012",
+            "BillingCountry": "日本"
         },
         {
             "attributes": {
                 "type": "Account",
                 "referenceId": "AccountRef3"
             },
-            "Name": "Trailblazers",
-            "BillingStreet": "1095 Avenue of the Americas",
-            "BillingCity": "New York",
-            "BillingState": "NY",
-            "BillingPostalCode": "10036",
-            "BillingCountry": "USA"
+            "Name": "Trailblazers株式会社",
+            "BillingStreet": "丸の内2-7-2 JP Tower 11F",
+            "BillingCity": "千代田区",
+            "BillingState": "東京都",
+            "BillingPostalCode": "100-7012",
+            "BillingCountry": "日本"
         }
     ]
 }

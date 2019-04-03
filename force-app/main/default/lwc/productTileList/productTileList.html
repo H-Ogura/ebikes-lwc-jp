@@ -2,7 +2,7 @@
     <div class="slds-card slds-p-around_x-small">
         <template if:true={searchBarIsVisible}>
             <lightning-input
-                label="Search Key"
+                label="検索キーワード"
                 type="text"
                 onchange={handleSearchKeyChange}
                 class="search-bar"
@@ -35,7 +35,7 @@
             </template>
             <template if:false={products.data.records.length}>
                 <c-placeholder
-                    message="There are no products matching your current selection"
+                    message="現在の条件に合致する製品はありませんでした"
                 ></c-placeholder>
             </template>
         </template>

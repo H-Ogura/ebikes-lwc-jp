@@ -1,8 +1,8 @@
 {
-    "name": "ebikes-lwc",
+    "name": "ebikes-lwc-jp",
     "private": true,
     "version": "1.0.0",
-    "description": "EBikes Sample App - Lightning Web Components",
+    "description": "EBikes サンプルアプリケーション - Lightning Web Components",
     "scripts": {
         "lint": "npm run lint:lwc && npm run lint:aura",
         "lint:lwc": "eslint **/lwc/**",
@@ -19,7 +19,7 @@
     "license": "CC0-1.0",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/trailheadapps/ebikes-lwc"
+        "url": "git+https://github.com/trailheadapps-jp/ebikes-lwc-jp"
     },
     "engines": {
         "node": ">= 10.13.0",

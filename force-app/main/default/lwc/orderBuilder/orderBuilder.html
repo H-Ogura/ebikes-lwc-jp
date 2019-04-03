@@ -3,15 +3,15 @@
         <template if:true={orderItems}>
             <header class="slds-text-heading_small">
                 <div>
-                    Order Total:
+                    注文合計:
                     <lightning-formatted-number
                         value={orderPrice}
                         format-style="currency"
-                        currency-code="USD"
+                        currency-code="JPY"
                         class="order-total"
                     ></lightning-formatted-number>
                 </div>
-                <div class="right">Total Items: {orderQuantity}</div>
+                <div class="right">合計品数: {orderQuantity}</div>
             </header>
             <div
                 class="drop-zone slds-p-around_x-small"
@@ -30,7 +30,7 @@
                 </template>
                 <template if:false={orderItems.length}>
                     <c-placeholder
-                        message="Drag products here to add items to the order"
+                        message="製品をこちらにドロップして注文へ追加します"
                     ></c-placeholder>
                 </template>
             </div>

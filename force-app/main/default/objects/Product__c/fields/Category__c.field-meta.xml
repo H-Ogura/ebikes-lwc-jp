@@ -2,7 +2,7 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Category__c</fullName>
     <externalId>false</externalId>
-    <label>Category</label>
+    <label>カテゴリー</label>
     <required>false</required>
     <trackTrending>false</trackTrending>
     <type>Picklist</type>
@@ -11,14 +11,14 @@
         <valueSetDefinition>
             <sorted>false</sorted>
             <value>
-                <fullName>Mountain</fullName>
+                <fullName>マウンテン</fullName>
                 <default>false</default>
-                <label>Mountain</label>
+                <label>マウンテン</label>
             </value>
             <value>
-                <fullName>Commuter</fullName>
+                <fullName>コミューター</fullName>
                 <default>false</default>
-                <label>Commuter</label>
+                <label>コミューター</label>
             </value>
         </valueSetDefinition>
     </valueSet>
