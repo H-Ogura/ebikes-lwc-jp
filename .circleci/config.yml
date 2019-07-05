@@ -21,26 +21,7 @@ jobs:
                   root: ~/
                   paths:
                       - project/*
-    prettier_verify:
-        # This verifies Prettier formatting
-        <<: *defaults
-        steps:
-            - attach_workspace:
-                  at: ~/
-            - run:
-                  name: Verify Prettier formatting
-                  command: |
-                      npm run prettier:verify
-    lint_lwc:
-        # This lints Lightning Web Components.
-        <<: *defaults
-        steps:
-            - attach_workspace:
-                  at: ~/
-            - run:
-                  name: Lint Lightning Web Components
-                  command: |
-                      npm run lint:lwc
+    
     unit_test_lwc:
         # This unit tests Lightning Web Components.
         <<: *defaults
