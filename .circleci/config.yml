@@ -155,18 +155,6 @@ workflows:
                   filters:
                       branches:
                           ignore: master
-            - prettier_verify:
-                  requires:
-                      - setup_tooling
-                  filters:
-                      branches:
-                          ignore: master
-            - lint_lwc:
-                  requires:
-                      - prettier_verify
-                  filters:
-                      branches:
-                          ignore: master
             - unit_test_lwc:
                   requires:
                       - lint_lwc
